@@ -1,0 +1,130 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: "comic sans MS", sans-serif;
+    font-style: normal;
+}
+
+#my_cv {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 30% 70%;
+}
+#links {
+    grid-column: 1;
+    grid-row-start :1;
+    grid-row-end: 3;
+    background-color: darkred;
+    border-radius: 20px;
+}
+
+.container_links {
+    margin-top: 125px;
+    margin-left: 70px;
+}
+
+#top {
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+}
+
+#container_photo {
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-right: 50px;
+    
+}
+
+#myphoto {
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+#container_personnal {
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 30px;
+}
+
+#profile {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row:1;
+    text-align: center;
+    margin-right: 140px;
+}
+
+#experience {
+    grid-column: 2;
+    grid-row: 2;
+    }
+
+.parcours {
+    font-weight: bold;
+    border: 5px solid darkred;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#other {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 2;
+    background-color: darkred;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+#languages {
+    margin-bottom: 40px;
+}
+
+#computer {
+    margin-bottom: 40px;
+}
+
+.interests_list {
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list:hover {
+    color: black;
+}
+
+.table {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-collapse: separate;
+    border-spacing: 40px 10px;
+}
+
+.occupation {
+    font-style: italic;
+}
+
+.date {
+    font-size: 12px;
+
+}
+
+.place {
+    font-size: 12px;
+}
+.container_links{
+    cursor: pointer;
+}
